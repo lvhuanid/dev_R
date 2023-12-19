@@ -36,6 +36,7 @@ healing throughout envelope crab greeting puzzle passport loan heater urge provi
 documents denied developers button yours synchronization launch bargains angles internship fisheries collateral fireworks formal mats
 
 ### redis instance 搜不到数据
+原因：类型不匹配，使用字符串查询与数字类型不匹配导致没有数据，与instance无关
 ```
 ft.create ne:8:cardEntry on json prefix 1 ne:8:cardEntry: schema $.ne_id as ne_id tag
 ```
@@ -67,6 +68,9 @@ ft.create ne:8:cardEntry on json prefix 1 ne:8:cardEntry: schema $.ne_id as ne_i
 
 > ft.search ne:8:portEntry *
 ```
+### 中文传输字符长度比字符串长度多2的长度
+问题网元发送中文报错，本以为是字符转换的问题，结果是head长度的问题（晕
+流的长度
 
 ### code tools
 ```
@@ -95,3 +99,22 @@ export const sortArr = (strArr, compareTargetPath) => {
     });
 };
 ```
+
+### win terminal 
+https://learn.microsoft.com/zh-cn/windows/terminal/panes
+
+
+april drove targets refuse italic egypt resistance providing updated hazardous pony whom grading amateurs supplied freestyle
+
+
+### tar cvf ~hx/db.tar redis/
+
+
+indigenous mothers nursing weeks university dots password reimbursement surname hoping samurai consortium restart interact particularly
+
+
+singing extended dozens apparently meals relevance business institutions suggestions verify environment sensation lands registrar
+
+
+### https://leetcode.cn/studyplan/top-interview-150/
+
