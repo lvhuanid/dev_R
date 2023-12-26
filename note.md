@@ -118,3 +118,63 @@ singing extended dozens apparently meals relevance business institutions suggest
 
 ### https://leetcode.cn/studyplan/top-interview-150/
 
+### linux
+docker 重置数据
+cd tnms && docker compose kill && rm -rf ../tnms_data && ./tnms_start.sh
+
+
+### nginx
+前后端合一 静态请求和动态请求
+
+### delete
+rimraf [src]
+ npm install -g rimraf
+
+### Glob Import As 
+全局导入
+
+### CRA(create react app)
+react官方建议使用vite
+
+
+### react 16 Fiber
+https://legacy.reactjs.org/blog/2017/09/26/react-v16.0.html
+
+Fiber is responsible for most of the new features in React 16, like error boundaries and fragments. Over the next few releases, you can expect more new features as we begin to unlock the full potential of React.
+
+Perhaps the most exciting area we’re working on is async rendering—a strategy for cooperatively scheduling rendering work by periodically yielding execution to the browser. The upshot is that, with async rendering, apps are more responsive because React avoids blocking the main thread.
+
+### str 
+charAt() slice(-1) [length-1] 获取字符串最后一个字符
+
+### key value
+```
+const name = Object.keys(obj)[0];
+const data = yang8[name].definition.yangType === "container" ? await this.getContainer(name) : await this.getList(name);        return {data: {data: {[name]: data}}};
+```
+
+### Java operator(https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+>=Greater than or equal to
+\<Less than
+&& Conditional-AND
+?: Ternary(shorthand for if-then-less statment)
+
+### 抓包
+wireshark   snmp2 mib
+
+
+模板字符串、 分布式
+
+### git取消已经commit的文件
+git reset HEAD~
+
+
+### windows 右键
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+win + x 终端管理员
+
+
+屏幕保护程序
+设置 ”在合上便携式计算机时“ 设成'不 采取任何措施'
+设置 '在按下计算机睡眠按钮时”设成“不 采取任何措施'
+
