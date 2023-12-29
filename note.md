@@ -178,3 +178,65 @@ win + x 终端管理员
 设置 ”在合上便携式计算机时“ 设成'不 采取任何措施'
 设置 '在按下计算机睡眠按钮时”设成“不 采取任何措施'
 
+### object 数据存储 动态存储
+    power[ne] = {};
+    power[ne][`EDFA-${loc}-PA`] = [data[`EDFA-${loc}-PA`]?.["target-gain"]];
+
+
+### idea 主题theme插件更新 编辑页变白的问题
+需要在 (Settings/Preferences)->Editor->Color Scheme 将他设置为对应的颜色
+
+
+### cloneDeep    deepClone 
+
+
+### redux
+```
+import {configureStore} from "@reduxjs/toolkit";
+import userReducer from "./userSlice";
+import faultReducer from "./faultSlice";
+import timeReducer from "./timeSlice";
+import languageReducer from "./languageSlice";
+import chassisReducer from "./chassisSlice";
+import layerReducer from "@/redux/layerSlice";
+import upgradeSlice from "@/redux/upgradeSlice";
+
+const store = configureStore({
+    reducer: {
+        user: userReducer,
+        fault: faultReducer,
+        time: timeReducer,
+        language: languageReducer,
+        chassis: chassisReducer,
+        layer:layerReducer,
+        upgrade:upgradeSlice
+    }
+});
+
+export default store;
+
+
+
+---------------------------------------
+import {Provider} from "react-redux";
+import {BrowserRouter} from "react-router-dom";
+import {createRoot} from "react-dom/client";
+import App from "./app";
+import store from "./redux/store";
+
+const root = document.getElementById("root");
+const container = createRoot(root);
+container.render(
+    <Provider store={store}>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </Provider>
+);
+document.title = `iGUI - ${window.location.hostname}`;
+
+
+```
+
+
+PostgreSQL
