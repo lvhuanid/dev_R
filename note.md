@@ -240,3 +240,31 @@ document.title = `iGUI - ${window.location.hostname}`;
 
 
 PostgreSQL
+
+
+### js对象属性赋值问题
+有时候解构赋值会赋值失败
+不如直接 data.type = 赋值
+
+
+### 删除
+rm -rf node_modules
+
+
+### ultraedit 工具
+
+
+
+
+javascript.info
+
+### win11 focus 在windows中执行干净启动
+https://support.microsoft.com/zh-cn/topic/%E5%A6%82%E4%BD%95%E5%9C%A8-windows-%E4%B8%AD%E6%89%A7%E8%A1%8C%E5%B9%B2%E5%87%80%E5%90%AF%E5%8A%A8-da2f9573-6eec-00ad-2f8a-a97a1807f3dd
+
+
+### CSRF
+跨域攻击 
+
+
+### android document
+https://developer.android.com/jetpack/compose/compositionlocal
