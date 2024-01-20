@@ -108,6 +108,7 @@ april drove targets refuse italic egypt resistance providing updated hazardous p
 
 
 ### tar cvf ~hx/db.tar redis/
+gzip myarchive.tar
 
 
 indigenous mothers nursing weeks university dots password reimbursement surname hoping samurai consortium restart interact particularly
@@ -268,3 +269,53 @@ https://support.microsoft.com/zh-cn/topic/%E5%A6%82%E4%BD%95%E5%9C%A8-windows-%E
 
 ### android document
 https://developer.android.com/jetpack/compose/compositionlocal
+
+
+### webSocket / eventSource(SSE)
+
+
+### leetcode
+https://leetcode.cn/problems/group-anagrams/solutions/520469/zi-mu-yi-wei-ci-fen-zu-by-leetcode-solut-gyoc/?envType=study-plan-v2&envId=top-100-liked
+
+
+3. 使用持久化状态管理库：有一些第三方库（如 redux-persist）可以帮助你将 Redux store 中的数据持久化到本地存储或其他持久化存储中，以便在页面刷新后可以恢复数据。
+
+
+alarm.resource.indexOf(filterKey) > -1
+"PORT-1-40-NM2" TFF-1-4 -1-4
+
+
+### debounce
+1. 当调用 `debounce` 函数时，它会返回一个新的函数（称为 `debounced` 函数）作为结果。
+
+2. 当调用 `debounced` 函数时，它会启动一个定时器，并等待一定的时间（即防抖延迟）。
+
+3. 如果在防抖延迟内再次调用 `debounced` 函数，定时器会被重置，重新开始计时。
+
+4. 如果在防抖延迟内没有再次调用 `debounced` 函数，定时器会触发，并执行原始函数。
+
+通过这种机制，`debounce` 函数可以确保原始函数只在一定的时间间隔内没有新的调用时才会执行，从而实现函数调用的防抖效果。
+
+下面是一个简化版的 `debounce` 函数的示例实现：
+
+```javascript
+function debounce(func, delay) {
+  let timerId;
+
+  return function (...args) {
+    clearTimeout(timerId);
+
+    timerId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+```
+
+在上述示例中，`debounce` 函数接受两个参数：`func` 表示原始函数，`delay` 表示防抖延迟时间。
+
+`debounce` 函数返回一个闭包函数，该闭包函数内部使用了一个定时器 `timerId`。每当调用闭包函数时，定时器会被清除，并重新设 置一个新的定时器。
+
+当没有新的函数调用在防抖延迟内发生时，定时器会触发，并执行原始函数 `func`。
+
+这就是 lodash 的 `debounce` 函数的基本实现原理。
