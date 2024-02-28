@@ -274,6 +274,8 @@ https://developer.android.com/jetpack/compose/compositionlocal
 ### webSocket / eventSource(SSE)
 
 
+英飞拉
+
 ### leetcode
 https://leetcode.cn/problems/group-anagrams/solutions/520469/zi-mu-yi-wei-ci-fen-zu-by-leetcode-solut-gyoc/?envType=study-plan-v2&envId=top-100-liked
 
@@ -319,3 +321,27 @@ function debounce(func, delay) {
 当没有新的函数调用在防抖延迟内发生时，定时器会触发，并执行原始函数 `func`。
 
 这就是 lodash 的 `debounce` 函数的基本实现原理。
+
+
+
+
+这段代码是一个用于配置代理的中间件。它使用了`http-proxy-middleware`库，用于在开发环境中将特定的请求代理到不同的目标服务
+
+
+### 使用终端打开注册表编辑器
+beyond conpare
+
+regedt32 输入   
+在计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Setup 删除一个socket ...
+
+
+### react svg import 导入
+import { ReactComponent as Fan_1 } from './img_fs/port/fan_1.svg';
+
+
+### python include
+        if password not in ["Optical@1cli", "FS@otn"] or login_info.username != "admin":
+
+
+### download
+window.open(`/api/file/download?type=data&filename=${name}`, "_self");
