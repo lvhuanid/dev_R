@@ -345,3 +345,58 @@ import { ReactComponent as Fan_1 } from './img_fs/port/fan_1.svg';
 
 ### download
 window.open(`/api/file/download?type=data&filename=${name}`, "_self");
+
+```
+class Solution:
+    def twoSum(nums: List[int], target: int) -> List[int]:
+        n = len(nums)
+        for i in range(n):
+            for j in range(i + 1, n):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+
+        return []
+
+
+def twoSumHash(nums: List[int], target: int) -> List[int]:
+    hashtable = dict()
+    for i, num in enumerate(nums):
+        if target - num in hashtable:
+            return [hashtable[target - num], i]
+        hashtable[nums[i]] = i
+    return []
+
+```
+在Python中，enumerate() 是一个内置函数，用于将一个可迭代对象（如列表、元组、字符串等）转换为一个枚举对象，同时返回每个元素的索引和值。这个函数通常在循环中使用，可以方便地获取元素的索引和值。
+
+### splice
+
+```
+const a = [1, 2, 3, 4, 5, 0, 0];
+const b = [2, 3, 4];
+a.splice(5, a.length - 5, ...b);
+a.sort((t1, t2) => t1 - t2);
+console.log(a);
+```
+
+### document processing 文档处理
+pandoc test.docx -o test.md
+pandoc TNMS网管系统用户手册.docx --extract-media=images -o cc.md
+
+
+february funny excerpt award sweep festivals sensory rhetoric thoroughly hygiene extra assistant fragrances comprehend
+
+
+### svg https://svg-tutorial.com/svg/gradient
+
+
+
+`**`是用来进行字典解包（dictionary unpacking）操作的语法
+
+export const sleep = ms => {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve();
+        }, ms);
+    });
+};
