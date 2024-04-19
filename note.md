@@ -400,3 +400,60 @@ export const sleep = ms => {
         }, ms);
     });
 };
+
+
+### vim
+switching window
+reference https://zhuanlan.zhihu.com/p/683883778
+
+
+<ctrl-w> +  w 窗口循环切换
+            h 切换到左边窗口
+            j 切换到上边窗口
+            k 切换到下边窗口
+            l 切换到右边窗口
+
+
+### go struct
+```
+tests := []struct {
+		name      string
+		args      args
+		wantStart int
+		wantEnd   int
+		wantTyp   int
+		wantErr   bool
+		wantValid bool
+	}{
+		{"bool", args{`[true  ,2]`, []interface{}{0}}, 1, 5, V_TRUE, false, true},
+		{"bool", args{`[t2ue  ,2]`, []interface{}{0}}, 1, 5, V_TRUE, false, false},
+		{"number", args{`[1  ,2]`, []interface{}{0}}, 1, 2, V_NUMBER, false, true},
+		{"number", args{`[1w ,2]`, []interface{}{0}}, 1, 3, V_NUMBER, false, false},
+		{"string", args{`[" "  ,2]`, []interface{}{0}}, 1, 4, V_STRING, false, true},
+		{"string", args{`[" "]  ,2]`, []interface{}{0}}, 1, 4, V_STRING, false, true},
+		{"object", args{`[{"":""}  ,2]`, []interface{}{0}}, 1, 8, V_OBJECT, false, true},
+		{"object", args{`[{x}  ,2]`, []interface{}{0}}, 1, 4, V_OBJECT, false, false},
+		{"arrauy", args{`[[{}]  ,2]`, []interface{}{0}}, 1, 5, V_ARRAY, false, true},
+		{"arrauy", args{`[[xx]  ,2]`, []interface{}{0}}, 1, 5, V_ARRAY, false, false},
+	}
+```
+
+### js string
+```
+PROT_10GE_LAN
+{port_type.substring(port_type.indexOf("_") + 1)}
+```
+
+### https://yyets.click/home
+
+### python venv
+python -m venv venv
+
+ macos & linux 激活虚拟环境
+source venv/bin/activate
+
+windows 激活虚拟环境
+venv\Scripts\activate
+
+### frontend interview
+https://www.lingtiku.com/quiz/detail/5
