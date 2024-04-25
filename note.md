@@ -457,3 +457,18 @@ venv\Scripts\activate
 
 ### frontend interview
 https://www.lingtiku.com/quiz/detail/5
+
+taste test
+### 三角形 css
+```
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid lightblue;
+}
+```
+### interview
+https://www.frontendinterviewhandbook.com/zh/
+
