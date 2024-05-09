@@ -250,6 +250,7 @@ PostgreSQL
 
 ### 删除
 rm -rf node_modules
+Remove-Item -Recurse -Force node_modules
 
 
 ### ultraedit 工具
