@@ -506,3 +506,25 @@ if (index !== -1) {
     console.log(`目标元素 ${target} 未找到`);
 }
 ```
+### promise
+```javascript
+// 手写一个简单的Promise
+const customPromise = new Promise((resolve, reject) => {
+    // 模拟异步操作
+    setTimeout(() => {
+        const randomNum = Math.random();
+        if (randomNum >= 0.5) {
+            resolve(`Success: Random number ${randomNum} is greater than or equal to 0.5`);
+        } else {
+            reject(`Error: Random number ${randomNum} is less than 0.5`);
+        }
+    }, 1000);
+});
+
+// 使用Promise的then和catch方法处理结果
+customPromise.then((message) => {
+    console.log(message);
+}).catch((error) => {
+    console.error(error);
+});
+```
