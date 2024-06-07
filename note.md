@@ -530,3 +530,7 @@ customPromise.then((message) => {
 ```
 ### http-proxy-middleware
 ### https://milu.blog/article/117           interview web nav
+### 使用git查看代码行数
+```
+git ls-files | xargs wc -l
+```
