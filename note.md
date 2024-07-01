@@ -541,3 +541,21 @@ https://github.com/krahets/hello-algo
 ### http-proxy-middleware
 ### everyone-can-use-english
 1
+### rust
+```
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => 1,
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
+}
+```
