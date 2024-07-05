@@ -564,3 +564,6 @@ fn value_in_cents(coin: Coin) -> u8 {
 ### generative-ai-for-beginners
 
 https://github.com/microsoft/generative-ai-for-beginners/tree/main
+
+
+go 1
