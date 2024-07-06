@@ -1,6 +1,7 @@
 ### note
 
 
+
 #### cloros
 https://peiseka.com/index-index-index.html
 
@@ -567,3 +568,4 @@ https://github.com/microsoft/generative-ai-for-beginners/tree/main
 
 
 go 1
+1
