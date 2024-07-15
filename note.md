@@ -573,3 +573,32 @@ go 1
 -1
 xr-frame
 -1
+### canvas
+ndc canvas
+```
+// 获取 canvas 元素
+    var canvas = document.getElementById('canvas');
+    // 通过判断getContext方法是否存在来判断浏览器的支持性
+    if(canvas.getContext) {
+      // 获取绘图上下文
+      var ctx = canvas.getContext('2d');
+      // 绘制一条从起点（x: 50, y:50）到 另一个点（x: 200, y:200）的直线
+      ctx.moveTo(50, 50);
+      ctx.lineTo(200, 200);
+      ctx.stroke();
+    }
+```
+```
+// 获取绘图上下文
+      var ctx = canvas.getContext('2d');
+      // 绘制一个三角形
+      ctx.moveTo(50, 50);
+      ctx.lineTo(200, 200);
+      ctx.lineTo(200, 50);
+      ctx.lineTo(50, 50);
+      ctx.stroke();
+```
+绘制一个矩形边框
+ctx.strockRect(50,50,200,100);
+绘制一个填充矩形
+ctx.fillRect(100,100,200,100);
