@@ -602,4 +602,5 @@ ndc canvas
 ctx.strockRect(50,50,200,100);
 绘制一个填充矩形
 ctx.fillRect(100,100,200,100);
+createLinearGradient
 ### end-to-end
