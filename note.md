@@ -604,3 +604,4 @@ ctx.strockRect(50,50,200,100);
 ctx.fillRect(100,100,200,100);
 createLinearGradient
 ### end-to-end
+### lua table
