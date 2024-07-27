@@ -252,6 +252,7 @@ PostgreSQL
 ### 删除
 rm -rf node_modules
 Remove-Item -Recurse -Force node_modules
+Remove-Item -Path ".\nodemodel\*" -Force
 
 
 ### ultraedit 工具
@@ -605,3 +606,5 @@ ctx.fillRect(100,100,200,100);
 createLinearGradient
 ### end-to-end
 ### lua table
+### words
+suppose chemistry autonomous manufacture think each poetry roughly negotiation sunglasses variety accommodations ultimately movement architecture archive divide satellites careers assistant desirable focus november financially model buried highest wife practitioners nonsense maintained sovereign found private organization separation amount happened coming goddess linguistic only addition precise merchandise contributor back ingredients liable territories
