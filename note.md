@@ -1,5 +1,5 @@
 ### note
-
+airbnb/javascript: JavaScript Style Guide
 
 
 #### cloros
