@@ -624,3 +624,16 @@ interpret steroids designing continental british double attendance goddess daugh
 
 ### lodash的cloneDeep => structuredClone
 structuredClone 是一种在浏览器环境中可用的算法，用于将结构化数据对象进行序列化和反序列化，从而实现深拷贝
+
+
+### docker vmmemWsl more large
+window + r %UserProfile%
+create .wslconfig
+input 
+```
+[wsl2]
+memory=2GB
+swap=0
+localhostForwarding=true
+```
+ wsl --shutdown
