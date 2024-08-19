@@ -641,3 +641,7 @@ localhostForwarding=true
 
 
 backward clear following however resurrection aviation quit personnel increased independent behavior professor arguments curriculum language replacement sufficiently phenomena tongue inappropriate constantly consensus efforts entrepreneur since suffered counselor admission subsequently primarily house marks happening appearances know someone around feasible lively exhibition experience subsequently literature pennsylvania engineer personality copy polyphonic intelligence manufacture
+
+
+清数据，将tnms_data 文件删除即可
+CLI 执行文件 后加 & 不会中途退出
