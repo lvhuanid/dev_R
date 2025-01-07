@@ -645,6 +645,7 @@ backward clear following however resurrection aviation quit personnel increased 
 
 清数据，将tnms_data 文件删除即可
 CLI 执行文件 后加 & 不会中途退出
+然后执行，tnms目录下的launcher
 
 
 territory overwhelming consequences sheriff helmet diamonds grateful wednesday knowledge million surrounding assist using strategies colony feel excel warrant also grow opportunity opinion temporarily perspective accuracy receipt reached feasible device construction beneficiary achieving study disorder defendants trilogy limits surrounding criticism very space moment contributor correspondent classic proliferation palestinian characteristics forbidden fertility
@@ -654,3 +655,57 @@ territory overwhelming consequences construction contributor proliferation pales
 
 
 谷歌reCAPTCHA
+
+
+### docker log tnms
+
+
+struggling resistance particularly civilian typical derivative spread collateral ukrainian accused scholarly story encyclopedia thereby entertaining limits classic businesses accreditation since negotiation admission characteristic independent primarily resistant unnecessary adopt wife every successful proprietary troops things proceeding entitled procedure surround hydrogen judicial earlier explanation correspondent himself language incorporated surely opponent entrepreneur mentally
+
+
+another permanent sophisticated attitude article annual simply chocolate symptoms centuries frequently abilities improvements oxygen recommendations well virtually capability contributions structure stability contain encyclopedia whole presumably criterion virtual municipalities incorporated inventor requirement volunteer concept size electron private coast mediterranean describing organism ending exempt divide performs associates continually then initial academy introduce
+
+
+numerous promoted matching manufacturing introduce receiver games philosophy demonstration spectrum advised aviation occur often proposition world recreational extremely january permanently infectious component societies schedule attempting independently recommendations cheat peninsula forward quizzes category substance holiday techniques dial knives reliability touch friend territories underground today thereafter you symptoms powerful republic facilitate intellectual
+
+### docker 
+```
+sudo mkdir -p /etc/docker
+
+sudo tee /etc/docker/daemon.json <<-'EOF'
+
+{
+
+    "registry-mirrors": [
+
+    	"https://dockerpull.com",
+
+        "https://docker.anyhub.us.kg",
+
+        "https://dockerhub.jobcher.com",
+
+        "https://dockerhub.icu",
+
+        "https://docker.awsl9527.cn"
+
+    ]
+
+}
+
+EOF
+
+sudo systemctl daemon-reload && sudo systemctl restart docker
+```
+
+
+
+H4B4 mode
+c21 在OEO下禁用
+
+
+交换机1口2口
+OEO业务
+端到端业务，交叉
+
+
+besides wonder engine waterfront linking intent valuation affiliated altogether proceedings specifications foods spell protected minutes greater develops martial rugged teach land hook adolescent dynasty starter himself pennsylvania pigs saver predator apply dessert impairment taxation korean previous lecturer wonderful securing join acceptable edinburgh roads vouchers arise grooming boss nothing signing partnership
