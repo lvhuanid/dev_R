@@ -712,3 +712,9 @@ besides wonder engine waterfront linking intent valuation affiliated altogether 
 
 
 acts imagery exceeding tires sum sports apparently pendant recommendation improve vocal whether mushroom aloud performed colors horizontal informative reputation teacher day vienna lit machinery accomplishments plant server terrific respond somehow orlando elevated telling prospect fundamentals bugs alerts prosperity bulbs rolling banana historical mechanisms inequality people ring stimulation chicks some significantly
+
+k8s
+（1）Raft 协议的核心角色
+Follower（跟随者）：所有节点初始状态，被动接收 Leader 的心跳和日志同步；
+Candidate（候选者）：Follower 超时未收到 Leader 心跳时，转为 Candidate 发起选举；
+Leader（领导者）：获半数以上节点投票的 Candidate，负责处理所有写请求，同步日志到 Follower。
